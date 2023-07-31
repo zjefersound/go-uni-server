@@ -23,9 +23,9 @@ export default {
       validation: (Rule: Rule) => Rule.required(),
     },
     {
-      name: 'price',
+      name: 'pricePerPassenger',
       type: 'number',
-      title: 'Price',
+      title: 'Price per Passenger',
       validation: (Rule: Rule) => Rule.required(),
     },
     {
