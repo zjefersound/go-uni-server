@@ -8,7 +8,7 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'skyblue-wombat',
+  title: 'gouni',
 
   projectId: '33lousv6',
   dataset: 'production',
