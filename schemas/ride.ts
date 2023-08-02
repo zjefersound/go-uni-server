@@ -29,6 +29,16 @@ export default {
       validation: (Rule: Rule) => Rule.required(),
     },
     {
+      name: 'extraCosts',
+      type: 'number',
+      title: 'Extra costs',
+    },
+    {
+      name: 'observations',
+      type: 'text',
+      title: 'Observations',
+    },
+    {
       name: 'paid',
       type: 'boolean',
       title: 'Is paid',
