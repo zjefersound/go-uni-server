@@ -15,6 +15,7 @@ export default {
       name: 'passengersOneWay',
       type: 'number',
       title: 'Number of one way passangers',
+      initialValue: 0,
     },
     {
       name: 'date',
@@ -32,6 +33,7 @@ export default {
       name: 'extraCosts',
       type: 'number',
       title: 'Extra costs',
+      initialValue: 0,
     },
     {
       name: 'observations',
@@ -50,6 +52,13 @@ export default {
       title: 'Car',
       validation: (Rule: Rule) => Rule.required(),
       to: [{type: 'car'}],
+    },
+    {
+      name: 'trip',
+      type: 'reference',
+      title: 'Trip',
+      validation: (Rule: Rule) => Rule.required(),
+      to: [{type: 'trip'}],
     },
   ],
 }
