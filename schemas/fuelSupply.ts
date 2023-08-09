@@ -18,6 +18,12 @@ export default {
       validation: (Rule: Rule) => Rule.required(),
     },
     {
+      name: 'date',
+      type: 'date',
+      title: 'Date',
+      validation: (Rule: Rule) => Rule.required(),
+    },
+    {
       name: 'car',
       type: 'reference',
       title: 'Car',
