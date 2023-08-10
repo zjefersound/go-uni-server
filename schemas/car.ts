@@ -19,9 +19,9 @@ export default {
       title: 'Photo',
     },
     {
-      name: 'kmPerLiter',
+      name: 'distancePerLiter',
       type: 'number',
-      title: 'KM per liter',
+      title: 'Distance (KM) per liter',
     },
   ],
 }
