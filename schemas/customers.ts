@@ -6,16 +6,17 @@ export default {
   title: 'Customer',
   fields: [
     {
-      name: 'name',
-      type: 'string',
-      title: 'Name',
-      validation: (Rule: Rule) => Rule.required(),
-    },
-    {
       name: 'course',
       type: 'string',
       title: 'Course',
       validation: (Rule: Rule) => Rule.required(),
+    },
+    {
+      name: 'user',
+      type: 'reference',
+      title: 'User',
+      validation: (Rule: Rule) => Rule.required(),
+      to: [{type: 'user'}],
     },
   ],
 }

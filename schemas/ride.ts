@@ -60,5 +60,11 @@ export default {
       validation: (Rule: Rule) => Rule.required(),
       to: [{type: 'trip'}],
     },
+    {
+      name: "bills",
+      type: "array",
+      title: "Bills",
+      of: [{ type: "reference", to: [{ type: "bill" }] }],
+    },
   ],
 }
