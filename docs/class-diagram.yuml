@@ -3,7 +3,6 @@
 // {generate:true}
 
 [User|-username;-name;-avatar;-email;-password;-role]
-[Customer|-course;-user]
 [Trip|-from;-to;-distance;-duration;]
 [Ride|-passengers;-passengersOneWay;-date;-pricePerPassenger;-extraCosts;-observations;-paid;-car;-trip;-bills;]
 [Bill|payer;reciever;date;amount;currency;description;paid]
@@ -17,6 +16,5 @@
 [Car]n-1[User]
 [Ride]1-n[Trip]
 [Ride]1-n[Car]
-[User]<1-0..1[Customer]
 [Bill]n-1[User]
 [note: A bill can only be linked to 0 or 1 ride{bg:cornsilk}]
