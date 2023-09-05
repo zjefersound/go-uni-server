@@ -66,5 +66,12 @@ export default {
       title: "Bills",
       of: [{ type: "reference", to: [{ type: "bill" }] }],
     },
+    {
+      name: 'driver',
+      type: 'reference',
+      title: 'Driver',
+      validation: (Rule: Rule) => Rule.required(),
+      to: [{type: 'user'}],
+    },
   ],
 }
