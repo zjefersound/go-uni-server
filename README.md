@@ -7,6 +7,10 @@ Sanity based server for a university ride app.
 
 <img src="./docs/class-diagram.svg">
 
+## Use case Diagram
+
+<img src="./docs/use-case.svg">
+
 ## Sanity Docs:
 
 - [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)

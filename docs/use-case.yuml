@@ -1,0 +1,22 @@
+// {type:usecase}
+// {direction:topDown}
+// {generate:true}
+
+[Admin]-(CRUD User)
+[Admin]-(CRUD Trip)
+[Admin]-(Create Ride)
+[Admin]-(CRUD Car)
+[Admin]-(CRUD Fuel Supply)
+[User]-(Sign In)
+[User]-(Create Ride)
+[User]-(CRUD Fuel Supply)
+(Create Ride)>(Create Bills)
+(Create Ride)>(Select Trip)
+(Create Ride)>(Select Car)
+[User]-(List Rides)
+[User]-(List Users)
+[User]-(List Bills)
+[User]-(List Payments)
+(List Payments)>(List Rides)
+(List Payments)>(List Bills)
+(List Payments)>(List Fuel Supplies)
