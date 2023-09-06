@@ -14,7 +14,7 @@
 (Create Ride)>(Select Trip)
 (Create Ride)>(Select Car)
 [User]-(List Rides)
-[User]-(List Users)
+[User]-(List Common Users)
 [User]-(List Bills)
 [User]-(List Payments)
 (List Payments)>(List Rides)

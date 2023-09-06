@@ -61,8 +61,8 @@
 <g id="edge5" class="edge">
 <title>A2&#45;&gt;A1</title>
 <path fill="none" stroke="#000000" d="M73.8254,-359.7813C69.9832,-336.7279 65.9573,-312.5722 62.5585,-292.1796"/>
-<text text-anchor="middle" x="73.8758" y="-305.6696" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">n</text>
-<text text-anchor="middle" x="62.5082" y="-340.2914" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
+<text text-anchor="middle" x="73.8758" y="-305.6696" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
+<text text-anchor="middle" x="62.5082" y="-340.2914" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">n</text>
 </g>
 <!-- A3 -->
 <g id="node4" class="node">
@@ -100,8 +100,8 @@
 <g id="edge6" class="edge">
 <title>A2&#45;&gt;A6</title>
 <path fill="none" stroke="#000000" d="M144.7812,-368.0031C163.2236,-342.5826 183.1958,-315.0532 199.7541,-292.2297"/>
-<text text-anchor="middle" x="195.9515" y="-308.8648" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">n</text>
-<text text-anchor="middle" x="148.5838" y="-345.368" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
+<text text-anchor="middle" x="195.9515" y="-308.8648" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
+<text text-anchor="middle" x="148.5838" y="-345.368" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">n</text>
 </g>
 <!-- A3&#45;&gt;A0 -->
 <g id="edge7" class="edge">
