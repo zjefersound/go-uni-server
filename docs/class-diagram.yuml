@@ -4,7 +4,7 @@
 
 [User|-username;-name;-avatar;-email;-password;-role]
 [Trip|-from;-to;-distance;-duration;]
-[Ride|-passengers;-passengersOneWay;-date;-pricePerPassenger;-extraCosts;-observations;-paid;-car;-trip;-bills;]
+[Ride|-passengers;-passengersOneWay;-date;-pricePerPassenger;-extraCosts;-observations;-paid;-car;-trip;-bills;-driver]
 [Bill|payer;reciever;date;amount;currency;description;paid]
 [note: Payer is optional because of possible guests{bg:cornsilk}]
 [FuelSupply|-pricePerLiter;-price;-date;-car;]
