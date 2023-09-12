@@ -72,7 +72,7 @@
 <text text-anchor="start" x="126.8597" y="-291" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Bill</text>
 <polygon fill="none" stroke="#000000" points="99.5227,-174 99.5227,-278 167.5227,-278 167.5227,-174 99.5227,-174"/>
 <text text-anchor="start" x="121.0197" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">payer</text>
-<text text-anchor="start" x="115.7457" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">reciever</text>
+<text text-anchor="start" x="115.7457" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">receiver</text>
 <text text-anchor="start" x="123.7947" y="-235" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">date</text>
 <text text-anchor="start" x="116.8507" y="-223" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amount</text>
 <text text-anchor="start" x="114.3552" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">currency</text>

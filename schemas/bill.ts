@@ -12,9 +12,9 @@ export default {
       to: [{type: 'user'}],
     },
     {
-      name: 'reciever',
+      name: 'receiver',
       type: 'reference',
-      title: 'Reciever',
+      title: 'receiver',
       validation: (Rule: Rule) => Rule.required(),
       to: [{type: 'user'}],
     },
