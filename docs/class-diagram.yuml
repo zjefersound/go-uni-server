@@ -3,12 +3,12 @@
 // {generate:true}
 
 [User|-username;-name;-avatar;-email;-password;-role]
-[Trip|-from;-to;-distance;-duration;]
+[Trip|-from;-to;-distance;-duration;-user]
 [Ride|-passengers;-passengersOneWay;-date;-pricePerPassenger;-extraCosts;-observations;-paid;-car;-trip;-bills;-driver]
 [Bill|payer;receiver;date;amount;currency;description;paid]
 [note: Payer is optional because of possible guests{bg:cornsilk}]
 [FuelSupply|-pricePerLiter;-price;-date;-car;]
-[Car|-model;-freeSeats;-photo;-distancePerLiter;]
+[Car|-model;-freeSeats;-photo;-distancePerLiter;-owner]
 
 [FuelSupply]0..n-1[Car]
 [Ride]0..1-1..n[Bill]
@@ -16,5 +16,6 @@
 [Car]n-1[User]
 [Ride]n-1[Trip]
 [Ride]n-1[Car]
-[Bill]n-1[User]
+[Trip]n-1[User]
+[Bill]n-0..1[User]
 [note: A bill can only be linked to 0 or 1 ride{bg:cornsilk}]
