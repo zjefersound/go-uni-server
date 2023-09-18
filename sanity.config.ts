@@ -11,7 +11,7 @@ export default defineConfig({
   title: 'gouni',
   apiVersion: "2023-08-02",
   projectId: '33lousv6',
-  dataset: 'production',
+  dataset: isDev ? 'development': 'production',
 
   plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],
   
