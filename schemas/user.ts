@@ -38,11 +38,11 @@ export default {
       name: 'role',
       type: 'string',
       title: 'Role',
-      initialValue: 'common',
+      initialValue: 'passenger',
       options: {
         list: [
           {title: 'Driver', value: 'driver'},
-          {title: 'Common', value: 'common'},
+          {title: 'Passenger', value: 'passenger'},
         ],
       },
     },

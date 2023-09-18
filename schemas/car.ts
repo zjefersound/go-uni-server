@@ -1,3 +1,5 @@
+import { Rule } from "sanity";
+
 export default {
   name: 'car',
   type: 'document',
@@ -22,6 +24,13 @@ export default {
       name: 'distancePerLiter',
       type: 'number',
       title: 'Distance (KM) per liter',
+    },
+    {
+      name: 'owner',
+      type: 'reference',
+      title: 'Owner',
+      validation: (Rule: Rule) => Rule.required(),
+      to: [{type: 'user'}],
     },
   ],
 }
